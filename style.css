@@ -23,10 +23,29 @@ header {
 header .menu {
     cursor: pointer;
 }
+
+.breadcrumb {
+  display: flex;
+  
+}z
+.breadcrumb ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+.breadcrum ul li {
+  margin-right: 10px;
+}
+
 header a {
     text-decoration: none;
     color: #fff;
     margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+.breadcrumb ul li a hover  {
+  background-color: #fff;
 }
 .container {
     padding: 20px;
@@ -140,7 +159,7 @@ font-size: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: #2596aa;
     text-align: center;
   }
   
